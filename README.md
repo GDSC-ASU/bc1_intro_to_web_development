@@ -11,7 +11,6 @@ Day 2:
 - JS classes
 - JS objects 
 - Create Vite Project
-- share init command
 - Introduction to React
     - React components (definition, props, styles)
     - Conditional component display
