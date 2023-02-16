@@ -1,11 +1,13 @@
-Day 1:
+#  Learn Web Development by Building a Multiplayer Game
+
+### Day 1:
 - Agenda
 - Introduction to Frontend web development
 - Introduction to React
 - NodeJS, NPM, and VS Code Installation
 
 
-Day 2:
+### Day 2:
 - Final Game Preview
 - Array recap
 - JS classes
