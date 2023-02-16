@@ -13,3 +13,10 @@ npm create vite@latest PROJECT_NAME -- --template react
 cd PROJECT_NAME
 npm install
 ```
+
+3. Run the project
+```bash
+npm run dev
+```
+
+4. Open `localhost:5173` in your web browser
