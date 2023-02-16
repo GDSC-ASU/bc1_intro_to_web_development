@@ -11,15 +11,25 @@ obj.name = "Ali";
 console.log("name", obj.name);
 
 class Student {
-  name;
-  phone;
-  gpa;
-  constructor(name, phone, gpa) {
-    this.name = name;
-    this.phone = phone;
-    this.gpa = gpa;
-  }
+    id;
+    name;
+    gpa;
+    courses;
+    /** 
+     * @param{string} id 
+     * @param{string} name 
+     * @param{number} gpa
+     * @param{Array} courses
+     */
+    constructor (id, name, gpa, courses) {
+        this.id = id;
+        this.name = name;
+        this.gpa = gpa;
+        this.courses = courses;
+    }
 }
+let ali = new Student("1", "Ali", 90, ["C++", "Discrete"]);
+let jaber = new Student("2", "Jaber", 70, ["C++", "Discrete", "English"]);
 
-let ali = new Student("Ali Al-Homsi", "+962791234567", 90.2);
-console.log("ali's data", ali);
+console.log(ali);
+console.log(jaber);
