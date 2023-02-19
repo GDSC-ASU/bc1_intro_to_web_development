@@ -1,0 +1,8 @@
+.cell {
+    display: inline;
+}
+
+button.cell {
+    font-size: 40px;
+    padding: 15px;
+}

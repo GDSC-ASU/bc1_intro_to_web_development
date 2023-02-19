@@ -24,3 +24,12 @@
     - Value binding
     - React states
     - Display array's elements as react components
+
+### Day 4:
+- Game's logic
+    - Data encapsulation
+    - Logic encapsulation
+- Game’s initial view
+    - Objects as props
+    - Update object’s value/s from inside of the component
+
