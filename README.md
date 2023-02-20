@@ -33,3 +33,5 @@
     - Objects as props
     - Update object’s value/s from inside of the component
 
+### Day 5:
+- Styling...
