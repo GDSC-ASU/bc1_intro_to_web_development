@@ -1,0 +1,16 @@
+span {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
