@@ -54,3 +54,11 @@
     *   Type of bodies
     *   JSON
     *   Examples
+*   Relational Databases and MySQL(MariaDB) introduction
+*   MariaDB installation
+*   CRUD oprtations
+    *   create a table
+    *   create a new record
+    *   retrive a record
+    *   update a record
+    *   delete a record
