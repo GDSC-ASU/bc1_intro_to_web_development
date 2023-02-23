@@ -1,9 +1,17 @@
 # Day 7:
 
-## Running an API:
+## Running an API's server:
 
-- open the API's directory, e.g. `pizza-api`
-- run `go run main.go` in terminal or CMD
+- Open the API's directory, e.g. `pizza-api`
+- Run `go run main.go` in terminal or CMD
+
+## Importing a Postman collection:
+
+- Open Postman
+- Go to File -> Import -> Choose Files
+- Select the collection that you want to import, e.g. `Pizza API.postman_collection.json`
+- Click on import
+- Use the requests from the imported collection
 
 ## Links:
 
