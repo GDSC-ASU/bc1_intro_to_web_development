@@ -1,7 +1,7 @@
 class Main {
   public static double sqrt(int n) throws Exception {
     if (n < 0) {
-      throw new NegativeNumberException;
+      throw new Exception("can't take square root of a negative number");
     }
     return Math.sqrt(n);
   }

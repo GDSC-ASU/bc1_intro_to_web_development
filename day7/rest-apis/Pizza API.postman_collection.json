@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "bdd346bf-6a23-431f-9821-ff4f55cf3175",
+		"name": "Pizza API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "22901882"
+	},
+	"item": [
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"Margarita\",\n    \"extraCheese\": true,\n    \"size\": \"medium\",\n    \"price\": 3.5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8081/pizza/add"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/pizza/get?type=Margarita",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"pizza",
+						"get"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Margarita"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8081/pizza/get-all"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"Margarita\",\n    \"extraCheese\": false,\n    \"size\": \"medium\",\n    \"price\": 3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/pizza/update?type=Margarita",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"pizza",
+						"update"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Margarita"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/pizza/delete?type=Margarita",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"pizza",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Margarita"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

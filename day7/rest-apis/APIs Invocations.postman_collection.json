@@ -1,0 +1,120 @@
+{
+    "info": {
+        "_postman_id": "2cf8da4f-e0f4-45d5-904f-0192c083243d",
+        "name": "APIs Invocations",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "22901882"
+    },
+    "item": [
+        {
+            "name": "Weather",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.openweathermap.org/data/2.5/weather?q=Amman&appid=API_TOKEN_HERE",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "openweathermap",
+                        "org"
+                    ],
+                    "path": [
+                        "data",
+                        "2.5",
+                        "weather"
+                    ],
+                    "query": [
+                        {
+                            "key": "q",
+                            "value": "Amman"
+                        },
+                        {
+                            "key": "appid",
+                            "value": "2fb1078b1ae351cef587e0b7a1e479f0"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "BITCOIN",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.binance.com/api/v3/depth?symbol=BTCUSDT",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "binance",
+                        "com"
+                    ],
+                    "path": [
+                        "api",
+                        "v3",
+                        "depth"
+                    ],
+                    "query": [
+                        {
+                            "key": "symbol",
+                            "value": "BTCUSDT"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "BMI",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/bmi/calc?height=1.74&weight=71.5",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "bmi",
+                        "calc"
+                    ],
+                    "query": [
+                        {
+                            "key": "height",
+                            "value": "1.74"
+                        },
+                        {
+                            "key": "weight",
+                            "value": "71.5"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "BMI List",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/bmi/all",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "bmi",
+                        "all"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
