@@ -62,3 +62,9 @@
     *   retrive a record
     *   update a record
     *   delete a record
+
+### Day 8:
+
+*   Database operations in Go
+*   Writing a helper struct to wrap database operations for the player model
+*   Viewing and handling database errors
