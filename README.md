@@ -68,3 +68,9 @@
 *   Database operations in Go
 *   Writing a helper struct to wrap database operations for the player model
 *   Viewing and handling database errors
+
+### Day 9:
+
+*   Utilizing databases in REST APIs
+*   Creating a login REST API
+*   Hashing a password
