@@ -8,3 +8,10 @@ CREATE TABLE IF NOT EXISTS ttt.players (
     updated_at TIMESTAMP,
     PRIMARY KEY (id)
 );
+
+CREATE TABLE IF NOT EXISTS ttt.sessions (
+    id INTEGER AUTO_INCREMENT,
+    username VARCHAR(60),
+    token VARCHAR(32),
+    PRIMARY KEY (id)
+);
