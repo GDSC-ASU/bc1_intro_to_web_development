@@ -72,5 +72,11 @@
 ### Day 9:
 
 *   Utilizing databases in REST APIs
-*   Creating a login REST API
+*   Creating player login REST API
 *   Hashing a password
+
+
+### Day 10:
+
+*   Finalazing player login REST API
+*   Creating game data model
