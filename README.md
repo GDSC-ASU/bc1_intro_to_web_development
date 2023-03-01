@@ -75,8 +75,14 @@
 *   Creating player login REST API
 *   Hashing a password
 
-
 ### Day 10:
 
 *   Finalazing player login REST API
 *   Creating game data model
+
+### Day 11:
+
+*   Creating game's database wrapper
+*   Creating game's RESS API controller
+
+
