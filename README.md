@@ -77,7 +77,7 @@
 
 ### Day 10:
 
-*   Finalazing player login REST API
+*   Finalizing player login REST API
 *   Creating game data model
 
 ### Day 11:
@@ -89,6 +89,6 @@
 
 *   React Router
 *   Using fetch to make REST API requests to the backend
-*   Finalazing
+*   Finalizing
 
 
