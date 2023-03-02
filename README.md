@@ -85,4 +85,10 @@
 *   Creating game's database wrapper
 *   Creating game's RESS API controller
 
+### Day 12:
+
+*   React Router
+*   Using fetch to make REST API requests to the backend
+*   Finalazing
+
 

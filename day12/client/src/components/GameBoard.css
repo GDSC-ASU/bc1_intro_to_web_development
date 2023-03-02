@@ -1,0 +1,31 @@
+.cell {
+  display: inline;
+}
+
+button.cell {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px #ababab solid;
+
+  width: 140px;
+  height: 140px;
+
+  padding: 30px;
+}
+
+.board {
+}
+
+.bigContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.playerStatus {
+  color: #ffffff;
+  text-align: center;
+}
